@@ -4,7 +4,7 @@ import type { LocaleMessageDictionary, VueMessageType } from 'vue-i18n'
 
 export function getQintConf(/* { app, router, ... } */): QintConf {
   const qintConf: QintConf = {
-    langTags: ['ar', 'en'],
+    langTags: ['en', 'ar'],
 
     langTagsConf: {
       ar: { nativeName: 'العربية' },
